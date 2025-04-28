@@ -1,0 +1,41 @@
+.top-left-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    font-size: larger;
+    color: black;
+    left: 20px;
+    top: 15px;
+    position: absolute;
+}
+
+body{
+    background-color: rgb(33, 33, 70);
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+header{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+    font-size: xx-large;
+
+}
+.hello{
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    cursor: pointer ;
+    text-align: center;
+}
