@@ -17,20 +17,20 @@
 
   <form>
     <label>Name :</label><br>
-    <input type="text" name="User Name"><br><br>
+    <input type="text" id="signup-username" name="User Name"><br><br>
 
     <label>Email :</label><br>
-    <input type="email" name="Email"><br><br>
+    <input type="email" id="signup-email" name="Email"><br><br>
 
     <label>Password :</label><br>
-    <input type="password" name="Password"><br><br>
+    <input type="password" id="signup-password" name="Password"><br><br>
 
-    <button type="submit">Sign Up</button>
-    <p>Already an account ?<a href="log.html"> Log In </p>
+    <button type="submit" onclick="signUp()">Sign Up</button>
+    <p>Already an account ?<a href="log.html" onclick="showlogin()"> Log In </p>
   </form>
 
 
 
-    
+   <script src="script.js"></script> 
 </body>
 </html>
